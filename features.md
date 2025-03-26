@@ -1,4 +1,43 @@
 
+
+---
+
+### **Danh sách các tính năng chính**
+
+Dựa trên cốt truyện và gamification, đây là các tính năng cốt lõi của ứng dụng:
+
+1. **Tạo nhân vật chuyển sinh**:
+    - Người chơi nhập tên và chọn ngoại hình cơ bản (chiến binh, pháp sư, nông dân, v.v.).
+    - Khởi đầu với 0 EXP, Level 1, không huy hiệu.
+2. **Lựa chọn và nhập mục tiêu cuộc đời**:
+    - Cung cấp 7 mục tiêu ban đầu để người chơi chọn (dựa trên 7 chiều cuộc sống: sức khỏe, trí tuệ, tinh thần, xã hội, môi trường, cảm xúc, nghề nghiệp).
+    - Sau khi chọn, người chơi nhập chi tiết mục tiêu lớn (ví dụ: “Trở thành kiếm sĩ mạnh nhất trong 1 năm”).
+3. **AI (System) tạo kế hoạch**:
+    - AI hỏi người chơi về ngày bắt đầu, thời gian mỗi ngày, và chia kế hoạch thành nhiệm vụ nhỏ (theo ngày/tuần/tháng).
+    - Tạo danh sách nhiệm vụ cụ thể (to-do list) dựa trên mục tiêu.
+4. **Bản đồ hành trình (Journey Map)**:
+    - Hiển thị nhiệm vụ dưới dạng các chấm trên bản đồ (phong cách RPG).
+    - Theo dõi tiến độ hàng ngày và tổng quát.
+5. **Hoàn thành nhiệm vụ**:
+    - Người chơi đánh dấu hoàn thành nhiệm vụ qua thông báo hoặc giao diện.
+    - Nhận EXP và phần thưởng khi hoàn thành.
+6. **Gamification**:
+    - **EXP (Điểm kinh nghiệm)**: Tăng khi hoàn thành nhiệm vụ (ví dụ: 10 EXP/nhiệm vụ nhỏ, 20 EXP/nhiệm vụ lớn).
+    - **Cấp độ**: Tăng khi đạt 100 EXP (Level 1 → Level 2).
+    - **Huy hiệu**: Phần thưởng cho thành tích (ví dụ: “Ý chí thép” sau 3 ngày liên tục, “Hiệp sĩ tập sự” sau 10 nhiệm vụ).
+    - **Thanh tiến độ**: Hiển thị % hoàn thành mục tiêu lớn và cấp độ.
+7. **Theo dõi mục tiêu cuộc đời**:
+    - Hiển thị tiến độ tổng quát của mục tiêu lớn.
+    - Kết thúc hành trình khi đạt 100% (kèm phần thưởng lớn).
+8. **Hồ sơ nhân vật**:
+    - Theo dõi EXP, cấp độ, huy hiệu, và streak (ngày liên tục hoàn thành).
+
+---
+
+### **Ghi lại 7 màn hình chức năng**
+
+Dưới đây là mô tả chi tiết 7 màn hình, được điều chỉnh theo yêu cầu mới (đặc biệt là **Set Life Goal** với 7 mục tiêu để lựa chọn):
+
 #### **1. Introduction (Giới thiệu cốt truyện, tạo nhân vật)**
 
 - **Mô tả**:
@@ -83,3 +122,5 @@
         - Nhiệm vụ còn lại: “20/100”.
         - Khi 100%: Animation cổng mở + “Ngươi đã hoàn thành mục tiêu cuộc đời!”.
 - **Gamification**: Huy hiệu mỗi 25% (ví dụ: “Nửa đường vinh quang”), +500 EXP khi hoàn thành.
+
+---
